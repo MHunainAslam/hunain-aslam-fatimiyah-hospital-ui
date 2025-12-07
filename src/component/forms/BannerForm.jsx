@@ -13,17 +13,17 @@ const BannerForm = () => {
                                 <span>Best Doctors</span>
                             </h2>
                             <form action="">
-                                <div class="row px-2 py-4 align-items-end justify-content-end">
-                                    <div class="col-md">
+                                <div className="row px-2 py-4 align-items-end justify-content-end">
+                                    <div className="col-md">
                                         <label className='para text-white'>Select Location</label>
-                                        <select id="inputState" class="form-select primary-select">
-                                            <option selected>Karchi</option>
+                                        <select id="inputState" className="form-select primary-select">
+                                            <option value={"khi"} defaultValue={"khi"}>Karchi</option>
                                         </select>
                                     </div>
-                                    <div class="col-md">
+                                    <div className="col-md">
                                         <label className='para text-white'>Select Type</label>
-                                        <select id="inputState" class="form-select primary-select">
-                                            <option selected>Cardiology</option>
+                                        <select id="inputState" className="form-select primary-select">
+                                            <option value={"cardiology"} defaultValue={"cardiology"}>Cardiology</option>
                                         </select>
                                     </div>
                                     <Button size='sm' variant='white' className='px-4 mt-md-0 mt-3' type="button">

@@ -30,9 +30,9 @@ const Department = () => {
                         <Link className="para text-black" to="#">View All</Link>
                     </div>
                     <div className="department-cards py-4">
-                        {data?.map((item) => (
-                            <div className="department-card text-center">
-                                <img src={item.media} cl alt="" />
+                        {data?.map((item, i) => (
+                            <div className="department-card text-center" key={i}>
+                                <img src={item.media}  alt="" />
                                 <p>{item.label}</p>
                             </div>
                         ))}

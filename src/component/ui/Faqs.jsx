@@ -34,21 +34,20 @@ const Faqs = () => {
                         <h2 className='heading'>
                             Frequently Asked Questions
                         </h2>
-                        <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+                        <div className="accordion accordion-flush mt-4" id="accordionFlushExample">
                             {data?.map((item, i) => (
-
-                                <div class="accordion-item border-black" key={i}>
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-${i}`} aria-expanded="false" aria-controls={`#flush-${i}`}>
-                                           {item.title}
+                                <div className="accordion-item border-black" key={i}>
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target={`#flush-${i}`} aria-expanded="false" aria-controls={`#flush-${i}`}>
+                                            {item.title}
                                         </button>
                                     </h2>
-                                    <div id={`flush-${i}`} class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body ps-0">{item?.desc}</div>
+                                    <div id={`flush-${i}`} className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div className="accordion-body ps-0">{item?.desc}</div>
                                     </div>
                                 </div>
                             ))}
-                         
+
                         </div>
                     </div>
                 </div>

@@ -30,7 +30,7 @@ const Services = () => {
                             We Serve 24/7
                         </h2>
                         {data?.map((item, i) => (
-                            <div className="d-flex align-items-start ">
+                            <div className="d-flex align-items-start " key={i}>
                                 <img src={item.icon} alt="" />
                                 <div className='ms-3'>
                                     <h4 className='para-lg '>{item?.title}</h4>
