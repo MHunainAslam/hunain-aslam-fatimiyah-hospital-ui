@@ -58,10 +58,6 @@ const Footer = () => {
 
                                         </div>
                                         <div className="col-lg-3 col-sm-6">
-                                            <p>
-                                                Address
-                                            </p>
-
                                             <ul>
                                                 <li><img src="/assets/custom-icons/EnvelopeSimple.svg" className='me-2' alt="" />contact@fh.org.pk</li>
                                                 <li><img src="/assets/custom-icons/Phone.svg" className='me-2' alt="" /> 021 111 012 014</li>
