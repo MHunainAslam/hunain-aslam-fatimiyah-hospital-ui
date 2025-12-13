@@ -243,7 +243,7 @@ body {
   height: fit-content;
 }
 .container {
-  max-width: 1280px !important;
+  max-width: 1920px !important;
 }
 @media (max-width: 576px) {
   .service-img {
@@ -282,12 +282,20 @@ body {
     margin-inline: auto;
   }
 }
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px !important;
+  }
+}
 @media (min-width: 1400px) {
   .container {
-    max-width: 95% !important;
+    max-width: 1420px !important;
   }
 }
 @media (min-width: 1920px) {
+  .container {
+    max-width: 1782px !important;
+  }
   .service-img {
     width: 558px;
   }
