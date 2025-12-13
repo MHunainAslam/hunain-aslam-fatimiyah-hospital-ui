@@ -242,9 +242,6 @@ body {
 .h-fit-content {
   height: fit-content;
 }
-.container {
-  max-width: 1920px !important;
-}
 @media (max-width: 576px) {
   .service-img {
     width: 100%;
