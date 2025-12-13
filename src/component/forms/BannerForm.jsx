@@ -5,7 +5,7 @@ const BannerForm = () => {
     return (
         <>
             <div className="d-flex justify-content-center m-banner-form">
-                <div className="col-10 col-lg-9">
+                <div className="col-10">
                     <div className='banner-form shadow-sm row align-items-end px-xl-5 px-lg-3'>
                         <div className="col-md-9 py-lg-5 py-4">
                             <h2 className='heading text-white'>
